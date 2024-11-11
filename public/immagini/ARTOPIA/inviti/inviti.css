@@ -1,0 +1,255 @@
+.mediaViewInfo {
+	--web-view-name: inviti;
+	--web-view-id: inviti;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: inviti;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#inviti {
+	position: absolute;
+	width: 1920px;
+	height: 1308px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: inviti;
+	--web-view-id: inviti;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#FLAVIA_SCIR_ {
+	transform: matrix(1,0,0,1,-199.5,431.5) rotate(-90deg);
+	transform-origin: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 622px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 91px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.69px;
+}
+#INVITI_ {
+	position: absolute;
+	left: 960px;
+	top: 929px;
+	overflow: hidden;
+	width: 495px;
+	height: 52px;
+	text-align: left;
+	font-family: Public Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.69px;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 100px;
+	height: 14px;
+	left: 960.5px;
+	top: 995.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Una_selezione_degli_inviti_rea {
+	position: absolute;
+	left: 278px;
+	top: 929px;
+	overflow: visible;
+	width: 666px;
+	height: 337px;
+	text-align: right;
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.69px;
+}
+#ID2018___2019_Rita_Urso___Arto {
+	position: absolute;
+	left: 960px;
+	top: 1020px;
+	overflow: visible;
+	width: 503px;
+	height: 358px;
+	line-height: 50px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.69px;
+}
+.Icon_ionic_md_arrow_back {
+	overflow: visible;
+	position: absolute;
+	width: 67.133px;
+	height: 67.133px;
+	left: 1394.867px;
+	top: 1199px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_1___7 {
+	position: absolute;
+	width: 150px;
+	height: 55px;
+	left: 1520px;
+	top: 299px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: GRAFICA.html;
+	cursor: pointer;
+}
+#HOME__ {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	width: 151px;
+	height: 55px;
+	text-align: left;
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.69px;
+}
+#Component_2___7 {
+	position: absolute;
+	width: 204px;
+	height: 55px;
+	left: 1520px;
+	top: 375px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ABOUT.html;
+	cursor: pointer;
+}
+#ABOUT_ {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	width: 205px;
+	height: 55px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ABOUT.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.69px;
+}
+#Component_3___7 {
+	position: absolute;
+	width: 256px;
+	height: 55px;
+	left: 1520px;
+	top: 451px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: STUDIOEO.html;
+	cursor: pointer;
+}
+#STUDIOEO {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 257px;
+	height: 55px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: STUDIOEO.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.69px;
+}
+#Lorem_ipsum_dolor_sit_amet__co {
+	position: absolute;
+	left: 278px;
+	top: 299px;
+	overflow: visible;
+	width: 1185px;
+	height: 581px;
+	text-align: left;
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(255,118,94,1);
+	letter-spacing: 0.69px;
+}
+#Component_4___15 {
+	position: absolute;
+	width: 86px;
+	height: 56px;
+	left: 1520px;
+	top: 125px;
+	overflow: visible;
+}
+.Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#IT_EN {
+	position: absolute;
+	left: 11px;
+	top: 14px;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	line-height: 37px;
+	margin-top: -7.5px;
+	text-align: right;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.69px;
+}
