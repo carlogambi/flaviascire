@@ -24,10 +24,12 @@ const BgImage = styled.div`
   background-position: center;
   background-size: contain;
   opacity: 0.6;
+  filter: blur(20px);
 `;
 
 const ContentsWrapper = styled.div`
   max-width: 60vw;
+  margin-top: 12vh;
   max-height: 80vh;
   display: flex;
   flex-direction: row;
@@ -79,7 +81,6 @@ const Chunk = ({ title, preview, index, setHover, hover }) => {
       key={index}
       style={{
         backgroundColor: "rgba(255,255,255,0)",
-        backdropFilter: "blur(20px)",
       }}
     >
       <h1 style={{ opacity: hover ? 1 : 0 }}>{title}</h1>
