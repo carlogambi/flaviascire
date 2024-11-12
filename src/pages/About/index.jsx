@@ -43,11 +43,11 @@ const DescriptionWrapper = styled.div`
   @media (max-width: 480px) {
     margin-top: 10vh;
     overflow-y: scroll;
-    
   }
 `;
 const Portrait = styled.img`
   width: 20vw;
+  filter: brightness(1.2) contrast(1.1) hue-rotate(1deg) saturate(0.9);
   @media (max-width: 480px) {
     min-width: 80vw;
   }
@@ -90,8 +90,8 @@ export const AboutPage = () => {
       <PageWrapper>
         <DescriptionWrapper>
           <Description>{content}</Description>
-          <Button>{downloadCvButton}</Button>
-          <Button>{switchLangButton}</Button>
+          {/* <Button>{downloadCvButton}</Button>
+          <Button>{switchLangButton}</Button> */}
         </DescriptionWrapper>
         <Portrait src={portrait} />
       </PageWrapper>

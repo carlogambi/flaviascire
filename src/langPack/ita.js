@@ -8,7 +8,7 @@ export const itaLangPack = {
     content: `Flavia Scirè è una visual designer e curatrice, classe 1994, vive e lavora a Milano. Nel 2017 si è laureata in pittura e arti visive alla NABA, nuova accademia di belle arti, e nel 2019 ha conseguito la laurea specialistica in arti visive e studi curatoriali.La sua ricerca visuale si basa su percezione, simboli e immaginari collettivi nei contesti della comunicazione contemporanea. Da sempre affascinata dalla magia della carta stampata, incontra l'universo parallelo del digitale nel corso dei suoi studi in antropologia dei media.`,
     downloadCvButton: "download cv",
     switchLangButton: "switch language",
-    portrait: "/foto_flo.png",
+    portrait: "/foto_nuova.jpg",
   },
   contents: [
     {
