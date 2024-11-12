@@ -35,7 +35,7 @@ const Content = styled.div`
   z-index: 2;
   overflow: scroll;
   backdrop-filter: blur(25px);
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
     margin-top: 10vh;
   }
 `;

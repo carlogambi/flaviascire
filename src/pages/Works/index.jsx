@@ -35,7 +35,7 @@ const ContentsWrapper = styled.div`
   z-index: 2;
   gap: 10px;
   overflow: scroll;
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
     min-width: 90vw;
   }
 `;
@@ -55,14 +55,14 @@ const ContentChunk = styled.div`
     transform: translateX(-50%);
   }
   img {
-    @media (max-width: 400px) {
+    @media (max-width: 480px) {
       min-width: 90vw;
     }
   }
   h2 {
     visibility: collapse;
     position: absolute;
-    @media (max-width: 400px) {
+    @media (max-width: 480px) {
       position: static;
       visibility: visible;
     }

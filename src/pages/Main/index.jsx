@@ -30,6 +30,10 @@ const TitleEl = styled.h1`
   left: 30px;
   text-transform: uppercase;
   cursor: pointer;
+  @media (max-width: 480px) {
+    top: 0vh;
+    left: 4vw;
+  }
 `;
 const SubTitleEl = styled.h3`
   position: absolute;
@@ -39,6 +43,13 @@ const SubTitleEl = styled.h3`
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: underline;
+  @media (max-width: 480px) {
+    top: 10vh;
+    left: 4vw;
+    padding-top: 0px;
+    margin-top: 0px;
+    z-index: 999;
+  }
 `;
 
 const MainTitle = styled.h1`
@@ -51,6 +62,28 @@ const MainTitle = styled.h1`
   font-family: "Formula";
   font-weight: normal;
   font-size: 70px;
+`;
+
+const Button = styled.a`
+  all: unset;
+  /* border: solid; */
+  z-index: 2;
+  font-size: 2em;
+  cursor: pointer;
+`;
+
+const WorksButton = styled(Button)`
+  position: absolute;
+  top: 28vh;
+  left: 53vw;
+`;
+const AboutButton = styled(Button)`
+  position: absolute;
+  top: 89vh;
+  left: 16vw;
+  @media (max-width: 480px) {
+    top: 75vh;
+  }
 `;
 
 export const SubTitle = ({ children, href }) => {
@@ -77,13 +110,6 @@ export const Title = ({ children }) => {
     </TitleEl>
   );
 };
-const Button = styled.a`
-  all: unset;
-  /* border: solid; */
-  z-index: 2;
-  font-size: 2em;
-  cursor: pointer;
-`;
 
 export const MainPage = () => {
   const lang = getCurrentLang();
@@ -97,22 +123,20 @@ export const MainPage = () => {
       <MainTitle
         dangerouslySetInnerHTML={{ __html: title.replace(" ", "<br/>") }}
       />
-      <Button
+      <WorksButton
         onClick={() => {
           window.location.replace("/works");
         }}
-        style={{ position: "absolute", top: "28vh", left: "53vw" }}
       >
         {worksButton}
-      </Button>
-      <Button
+      </WorksButton>
+      <AboutButton
         onClick={() => {
           window.location.replace("/about");
         }}
-        style={{ position: "absolute", top: "89vh", left: "16vw" }}
       >
         {aboutButton}
-      </Button>
+      </AboutButton>
       <BgImage />
     </Wrapper>
   );

@@ -13,7 +13,7 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
     overflow-y: scroll;
   }
 `;
@@ -27,8 +27,9 @@ const BgImage = styled.div`
   background-position: center;
   background-size: contain;
   opacity: 0.6;
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
     left: 25vw;
+    filter: blur(20px);
     position: fixed;
   }
 `;
@@ -39,21 +40,21 @@ const DescriptionWrapper = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   gap: 1vh;
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
     margin-top: 10vh;
     overflow-y: scroll;
-    backdrop-filter: blur(25px);
+    
   }
 `;
 const Portrait = styled.img`
   width: 20vw;
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
     min-width: 80vw;
   }
 `;
 const Description = styled.p`
   max-width: 20vw;
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
     max-width: 80vw;
   }
 `;
@@ -61,7 +62,7 @@ const Button = styled.a`
   all: unset;
   padding: 5px;
   border: solid;
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
     padding: 2vw;
   }
 `;
